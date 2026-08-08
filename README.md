@@ -2,7 +2,7 @@
 
 Portafolio personal, construido con Next.js. Backend Developer enfocado en Python y FastAPI, en búsqueda de mi primera oportunidad como desarrollador backend.
 
-🔗 **Demo:** _(añadir URL de Vercel aquí una vez desplegado)_
+🔗 **Demo:** _((https://yeraypriede.vercel.app/))_
 
 ## Stack
 
