@@ -43,7 +43,7 @@ export const projects = [
     description: "API REST en FastAPI para gestionar gastos compartidos en grupos, con auth JWT y cálculo de balances.",
     tags: ["Python", "FastAPI", "SQL"],
     githubUrl: "https://github.com/yeraysjk/shared-expenses-api",
-    demoUrl: "https://github.com/yeraysjk/shared-expenses-api",
+    demoUrl: "https://shared-expenses-api-mvvd.onrender.com",
     glyph: "💰",
     gradient: "from-yellow-500 via-lime-600 to-green-700",
   },
