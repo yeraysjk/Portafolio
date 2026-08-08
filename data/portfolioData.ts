@@ -15,8 +15,11 @@ export const heroBadges = [
   { icon: "🌱", label: "Junior" },
 ];
 
-export const bio =
-  "Nacido en Barcelona, 28 años. Graduado en DAM (Desarrollo de Aplicaciones Multiplataforma) y autodidacta por naturaleza: sigo aprendiendo cada día más allá de lo que vi en clase. Sé un poco de cada cosa — Python, JavaScript, bases de datos — y estoy dando mis primeros pasos como desarrollador junior, abierto tanto a frontend como a backend.";
+export const bio = [
+  "Soy desarrollador junior, graduado en DAM y con muchas ganas de dar el salto al mundo profesional.",
+  "Me gusta aprender por mi cuenta, experimentar y entender cómo funcionan las cosas más allá de lo que se aprende en clase. He trabajado con Python, JavaScript, bases de datos y otras tecnologías durante mi formación y mis proyectos personales.",
+  "Ahora busco mi primera oportunidad en IT. No tengo un puesto concreto en mente: estoy abierto a frontend, backend o cualquier posición relacionada con el desarrollo en la que pueda aprender, aportar y crecer como profesional.",
+];
 
 export const aboutFacts = [
   { icon: "📍", label: "Barcelona" },

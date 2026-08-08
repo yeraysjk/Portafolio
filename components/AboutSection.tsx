@@ -40,9 +40,16 @@ export function AboutSection() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="glass flex flex-col justify-center gap-8 rounded-[2rem] p-8 sm:p-10"
         >
-          <p className="text-balance text-xl font-medium leading-relaxed text-slate-200 sm:text-2xl">
-            {bio}
-          </p>
+          <div className="flex flex-col gap-4">
+            {bio.map((paragraph, index) => (
+              <p
+                key={index}
+                className="text-balance text-base leading-relaxed text-slate-200 sm:text-lg"
+              >
+                {paragraph}
+              </p>
+            ))}
+          </div>
 
           <div className="flex flex-wrap gap-3">
             {aboutFacts.map((fact) => (
