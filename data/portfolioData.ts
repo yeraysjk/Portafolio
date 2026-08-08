@@ -16,9 +16,8 @@ export const heroBadges = [
 ];
 
 export const bio = [
-  "Soy desarrollador junior, graduado en DAM y con muchas ganas de dar el salto al mundo profesional.",
-  "Me gusta aprender por mi cuenta, experimentar y entender cómo funcionan las cosas más allá de lo que se aprende en clase. He trabajado con Python, JavaScript, bases de datos y otras tecnologías durante mi formación y mis proyectos personales.",
-  "Ahora busco mi primera oportunidad en IT. No tengo un puesto concreto en mente: estoy abierto a frontend, backend o cualquier posición relacionada con el desarrollo en la que pueda aprender, aportar y crecer como profesional.",
+  "Soy desarrollador junior, graduado en DAM y autodidacta por naturaleza. Me gusta aprender haciendo, experimentar con nuevas tecnologías y convertir ideas en proyectos.",
+  "Tengo experiencia trabajando con Python, JavaScript, bases de datos y otras herramientas de desarrollo. Actualmente busco mi primera oportunidad profesional en IT y estoy abierto a diferentes áreas y tecnologías dentro del desarrollo.",
 ];
 
 export const aboutFacts = [
