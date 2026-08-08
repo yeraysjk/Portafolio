@@ -1,8 +1,8 @@
 # Portafolio — Yeray Priede
 
-Portafolio personal, construido con Next.js. Backend Developer enfocado en Python y FastAPI, en búsqueda de mi primera oportunidad como desarrollador backend.
+Portafolio personal, construido con Next.js. Desarrollador junior autodidacta, abierto tanto a frontend como a backend, en búsqueda de mi primera oportunidad profesional.
 
-🔗 **Demo:** _((https://yeraypriede.vercel.app/))_
+🔗 **Demo:** https://yeraypriede.vercel.app/
 
 ## Stack
 
