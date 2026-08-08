@@ -4,7 +4,7 @@ export const profile = {
   location: "Barcelona, España",
   age: 28,
   email: "yeray.priede@gmail.com",
-  github: "https://github.com/",
+  github: "https://github.com/yeraysjk",
   linkedin: "https://www.linkedin.com/in/yeray-priede/",
   profileImage: "/profile.jpg",
 };
