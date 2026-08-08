@@ -11,12 +11,12 @@ export const profile = {
 
 export const heroBadges = [
   { icon: "📍", label: "Barcelona" },
-  { icon: "🐍", label: "Python" },
-  { icon: "🌐", label: "JavaScript" },
+  { icon: "🎓", label: "DAM" },
+  { icon: "🌱", label: "Junior" },
 ];
 
 export const bio =
-  "Nacido en Barcelona, 28 años. Autodidacta y curioso por naturaleza: aprendo programando, no leyendo. Estoy dando mis primeros pasos como desarrollador junior, con proyectos reales en Python, JavaScript y bases de datos — abierto a crecer tanto en frontend como en backend, donde surja la oportunidad.";
+  "Nacido en Barcelona, 28 años. Graduado en DAM (Desarrollo de Aplicaciones Multiplataforma) y autodidacta por naturaleza: sigo aprendiendo cada día más allá de lo que vi en clase. Sé un poco de cada cosa — Python, JavaScript, bases de datos — y estoy dando mis primeros pasos como desarrollador junior, abierto tanto a frontend como a backend.";
 
 export const aboutFacts = [
   { icon: "📍", label: "Barcelona" },
@@ -57,8 +57,8 @@ export const experience = [
 },
 {
   icon: "⚙️",
-  title: "Full Stack",
-  description: "Me muevo entre frontend y backend: interfaces, lógica de negocio, APIs y bases de datos. Me interesa entender la aplicación de punta a punta.",
+  title: "Entre frontend y backend",
+  description: "Voy tocando los dos lados: interfaces, lógica de negocio y bases de datos. Todavía sin especializarme, aprendiendo un poco de cada cosa.",
 },
 {
   icon: "🧩",
