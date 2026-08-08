@@ -29,7 +29,7 @@ export function ContactSection() {
           Hablemos.
         </h2>
         <p className="mt-4 text-lg text-slate-400">
-          Abierto a oportunidades como backend developer.
+          Abierto a oportunidades como desarrollador junior.
         </p>
 
         <div className="mt-10 flex items-center justify-center gap-4">

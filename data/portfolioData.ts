@@ -1,9 +1,9 @@
 export const profile = {
   name: "Yeray Priede",
-  role: "Backend Developer",
+  role: "Desarrollador Junior",
   location: "Barcelona, España",
   age: 28,
-  email: "yeray.priede@gmail.com",
+  email: "yeraypriede@gmail.com",
   github: "https://github.com/yeraysjk",
   linkedin: "https://www.linkedin.com/in/yeray-priede/",
   profileImage: "/profile.jpg",
@@ -12,11 +12,11 @@ export const profile = {
 export const heroBadges = [
   { icon: "📍", label: "Barcelona" },
   { icon: "🐍", label: "Python" },
-  { icon: "⚡", label: "FastAPI" },
+  { icon: "🌐", label: "JavaScript" },
 ];
 
 export const bio =
-  "Nacido en Barcelona, 28 años. Autodidacta y curioso por naturaleza: aprendo programando, no leyendo. Ahora mismo enfocado en Python y FastAPI, construyendo proyectos reales mientras busco mi primera oportunidad como backend developer.";
+  "Nacido en Barcelona, 28 años. Autodidacta y curioso por naturaleza: aprendo programando, no leyendo. Estoy dando mis primeros pasos como desarrollador junior, con proyectos reales en Python, JavaScript y bases de datos — abierto a crecer tanto en frontend como en backend, donde surja la oportunidad.";
 
 export const aboutFacts = [
   { icon: "📍", label: "Barcelona" },
@@ -47,42 +47,6 @@ export const projects = [
     glyph: "💰",
     gradient: "from-yellow-500 via-lime-600 to-green-700",
   },
-  {
-    title: "Data Vault",
-    description: "Gestor de datos con PostgreSQL y despliegue en Docker.",
-    tags: ["PostgreSQL", "Docker", "Git"],
-    githubUrl: "https://github.com/",
-    demoUrl: "https://example.com",
-    glyph: "🗄️",
-    gradient: "from-emerald-500 via-teal-600 to-cyan-700",
-  },
-  {
-    title: "Pulse UI",
-    description: "Mini plataforma frontend con foco en interacción fluida.",
-    tags: ["JavaScript", "HTML", "CSS"],
-    githubUrl: "https://github.com/",
-    demoUrl: "https://example.com",
-    glyph: "🎨",
-    gradient: "from-amber-500 via-orange-600 to-rose-600",
-  },
-  {
-    title: "Auto Flow",
-    description: "Automatización de tareas con integración GitHub + Docker.",
-    tags: ["Python", "GitHub", "Docker"],
-    githubUrl: "https://github.com/",
-    demoUrl: "https://example.com",
-    glyph: "🤖",
-    gradient: "from-fuchsia-500 via-purple-600 to-violet-700",
-  },
-  {
-    title: "Launch Pad",
-    description: "Caso de estudio completo: API + base de datos + SQL.",
-    tags: ["FastAPI", "PostgreSQL", "SQL"],
-    githubUrl: "https://github.com/",
-    demoUrl: "https://example.com",
-    glyph: "🚀",
-    gradient: "from-rose-500 via-pink-600 to-fuchsia-700",
-  },
 ];
 
 export const experience = [
@@ -93,8 +57,8 @@ export const experience = [
 },
 {
   icon: "⚙️",
-  title: "Desarrollo backend",
-  description: "Me interesa especialmente la lógica de negocio, las APIs, las bases de datos y todo lo que hace funcionar una aplicación por dentro.",
+  title: "Full Stack",
+  description: "Me muevo entre frontend y backend: interfaces, lógica de negocio, APIs y bases de datos. Me interesa entender la aplicación de punta a punta.",
 },
 {
   icon: "🧩",

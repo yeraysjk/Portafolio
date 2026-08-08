@@ -35,7 +35,7 @@ export function ExperienceSection() {
         transition={{ duration: 0.5, delay: 0.3 }}
         className="mt-6 rounded-full border border-white/10 bg-white/5 px-6 py-4 text-center text-sm font-medium text-slate-300"
       >
-        🎯 Buscando mi primera oportunidad profesional como backend developer.
+        🎯 Buscando mi primera oportunidad profesional como desarrollador.
       </motion.div>
     </Section>
   );
