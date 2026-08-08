@@ -1,0 +1,159 @@
+@import "tailwindcss";
+
+:root {
+  --background: #030308;
+  --foreground: #f8fafc;
+  --accent-from: #38bdf8;
+  --accent-via: #a78bfa;
+  --accent-to: #f472b6;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #030308;
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+main {
+  scroll-snap-type: y proximity;
+}
+
+section {
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(167, 139, 250, 0.35);
+  color: #fff;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--accent-from), var(--accent-via));
+  border-radius: 999px;
+  border: 2px solid #030308;
+}
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #6366f1 transparent;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Gradient text */
+.text-gradient {
+  background: linear-gradient(90deg, var(--accent-from), var(--accent-via), var(--accent-to));
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradient-shift 6s ease infinite;
+}
+
+/* Grid pattern background */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 40%, transparent 100%);
+}
+
+/* Glass surface */
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+}
+
+@keyframes gradient-shift {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes float-a {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(60px, -40px) scale(1.1);
+  }
+}
+
+@keyframes float-b {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(-50px, 50px) scale(1.05);
+  }
+}
+
+.animate-float-a {
+  animation: float-a 14s ease-in-out infinite;
+}
+
+.animate-float-b {
+  animation: float-b 16s ease-in-out infinite;
+}
+
+@keyframes bounce-down {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateY(8px);
+    opacity: 1;
+  }
+}
+
+.animate-bounce-down {
+  animation: bounce-down 2s ease-in-out infinite;
+}
