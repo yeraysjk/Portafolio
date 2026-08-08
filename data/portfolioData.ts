@@ -86,24 +86,24 @@ export const projects = [
 ];
 
 export const experience = [
-  {
-    icon: "🎓",
-    title: "Formación",
-    description: "Bases sólidas en programación y desarrollo backend.",
-  },
-  {
-    icon: "📚",
-    title: "Cursos",
-    description: "Formación continua en herramientas y buenas prácticas.",
-  },
-  {
-    icon: "🛠️",
-    title: "Proyectos personales",
-    description: "Aprendo construyendo aplicaciones reales de principio a fin.",
-  },
-  {
-    icon: "🔥",
-    title: "Autodidacta",
-    description: "Explorando stack nuevo cada semana, por iniciativa propia.",
-  },
+{
+  icon: "🎓",
+  title: "DAM",
+  description: "Formación en Desarrollo de Aplicaciones Multiplataforma, con bases en programación, bases de datos y desarrollo de software.",
+},
+{
+  icon: "⚙️",
+  title: "Desarrollo backend",
+  description: "Me interesa especialmente la lógica de negocio, las APIs, las bases de datos y todo lo que hace funcionar una aplicación por dentro.",
+},
+{
+  icon: "🧩",
+  title: "Construyendo proyectos",
+  description: "Transformo ideas en aplicaciones funcionales, desde el diseño de la solución hasta su implementación.",
+},
+{
+  icon: "📈",
+  title: "Siempre aprendiendo",
+  description: "Me gusta experimentar con nuevas tecnologías y mejorar continuamente mis conocimientos y mi forma de programar.",
+},
 ];
